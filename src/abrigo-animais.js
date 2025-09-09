@@ -17,7 +17,7 @@ class AbrigoAnimais {
     const nomesValidos = this.animais.map(a => a.nome);
     const vistos = new Set();
 
-    for (let nome of ordA) {A
+    for (let nome of ordA) {
       if (!nomesValidos.includes(nome) || vistos.has(nome)) {
         return false; // inválido ou duplicado
       }
